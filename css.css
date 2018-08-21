@@ -1,0 +1,62 @@
+html,body,p{
+    margin: 0;
+    padding: 0;
+}
+@keyframes c {
+    0%{opacity: 0}
+    20%{opacity: 100}
+    40%{opacity: 0}
+    60%{opacity: 0}
+    80%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes x {
+    0%{opacity: 0}
+    20%{opacity: 0}
+    40%{opacity: 100}
+    60%{opacity: 0}
+    80%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes q {
+    0%{opacity: 0}
+    20%{opacity: 0}
+    40%{opacity: 0}
+    60%{opacity: 100}
+    80%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes d {
+    0%{opacity: 0}
+    20%{opacity: 0}
+    40%{opacity: 0}
+    60%{opacity: 0}
+    80%{opacity: 100}
+    100%{opacity: 0}
+}
+
+p{
+    position: absolute;
+    font-size: 380px;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    padding-top: 30%;
+}
+.c{
+    animation: c 10s infinite;
+    background-color: aqua;
+}
+.x{
+    animation: x 10s infinite;
+    background-color: red;
+}
+.q{
+    animation: q 10s infinite;
+    background-color: gold;
+}
+.d{
+    animation: d 10s infinite;
+    background-color: black;
+    color: white;
+}
